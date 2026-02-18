@@ -1,0 +1,41 @@
+openapi: 3.0.3
+info:
+  title: CAMARA Release Test
+  description: |
+    Minimal test definition for validating the CAMARA release automation workflow.
+    This is not a real API — it exists solely for end-to-end testing.
+  version: wip
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+  contact:
+    email: sp-ram@lists.camaraproject.org
+externalDocs:
+  description: Product documentation at CAMARA
+  url: https://github.com/camaraproject/TestRepo
+servers:
+  - url: "{apiRoot}/release-test/vwip"
+    variables:
+      apiRoot:
+        default: https://localhost:443
+        description: API root
+paths:
+  /status:
+    get:
+      operationId: getStatus
+      summary: Get service status
+      description: Returns the current status of the release test service.
+      tags:
+        - Status
+      responses:
+        "200":
+          description: Service is running
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    enum:
+                      - available
