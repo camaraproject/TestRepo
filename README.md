@@ -7,8 +7,8 @@
 
 # TestRepo
 
-> [!CAUTION]
-> This repository is exclusively used for testing the [CAMARA release automation](https://github.com/camaraproject/tooling/tree/release-automation/release_automation) workflow ([tooling#72](https://github.com/camaraproject/tooling/issues/72)). It is not an actual API repository. Issues, releases, and branches may be created and deleted at any time without notice.
+> [!WARNING]
+> **This repository has been archived.** It was used for testing the [CAMARA release automation](https://github.com/camaraproject/tooling/tree/release-automation/release_automation) workflow ([tooling#72](https://github.com/camaraproject/tooling/issues/72)) during February 2026. It has been replaced by [`camaraproject/ReleaseTest`](https://github.com/camaraproject/ReleaseTest) for ongoing testing. Issues, releases, and branches in this repository are test artifacts only.
 
 ## Scope
 
