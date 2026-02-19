@@ -2,7 +2,7 @@ repository:
   repository_name: TestRepo
   release_tag: r1.1
   release_type: pre-release-alpha
-  release_date: null
+  release_date: '2026-02-19T11:25:15Z'
   src_commit_sha: dad402dbb8e904e8953d459c248f80a60a8fe04b
 apis:
 - api_name: release-test
